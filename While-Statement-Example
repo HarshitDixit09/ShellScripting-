@@ -1,0 +1,30 @@
+#!/bin/bash
+
+while true
+do
+
+        echo -e "Please select your choice from the below menu \n"
+        echo -e " 1. Pre-Validation \n"
+        echo -e " 2. User Administration \n"
+        echo -e " 3. Run Ad-Hoc commands \n"
+        echo -e " 0. Exit \n"
+        read cho
+        case $cho in
+
+        0)
+        break
+        ;;
+        1)
+        echo "Welcome to Pre-Validation"
+        sleep 4
+        ;;
+        2)
+        echo "Welcome to User Administration"
+        sleep 4
+        ;;
+        3)
+        echo "Welcome to Run ed-Hoc command"
+        ;;
+        esac
+
+done
